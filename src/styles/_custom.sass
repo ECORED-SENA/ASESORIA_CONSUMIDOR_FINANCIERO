@@ -1,0 +1,40 @@
+.banner-principal__img
+  background-image: url("../assets/curso/portada/banner-princiapal2.png"), url("../assets/curso/portada/banner-princiapal.png")
+  align-self: stretch
+  background-repeat: no-repeat, no-repeat
+  background-size: 80%, 85%
+  animation: Flitp 3s ease infinite  
+  img
+    display: none !important
+
+@media screen and (min-width: 1200px)
+  .banner-principal__img
+    background-size: 68%, 68%
+
+@keyframes Flitp
+  0%
+    background-position: 50% 30%, center
+  50%
+    background-position: 50% 60%, center
+  100%
+    background-position: 50% 30%, center
+  
+.bg01
+  background-image: url("../assets/curso/temas/t0_01.jpg")
+  border-radius: 16px
+  background-size: cover
+
+.bg02
+  background-image: url("../assets/curso/temas/t1_04.jpg")
+  border-radius: 8px
+  background-size: cover
+
+.br01
+  border-radius: 16px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #039D95 !important
+  border: none
+
+.Separador
+  opacity: 0.3 !important

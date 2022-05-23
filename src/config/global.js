@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Asesoría y servicio al cliente en el mercado financiero',
+    descripcionCurso:
+      'El componente formativo permitirá que el aprendiz apropie conocimientos de la asesoría y servicio al cliente, técnicas de comunicación y de ventas, utilidad de las tecnologías de la información y comunicación en el sector financiero, el conocimiento propio de los productos financieros y su estructuración de acuerdo con el perfil del cliente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,7 +24,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Consumidor financiero',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -38,14 +40,28 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Asesoría y servicio al cliente ',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Venta de productos financieros',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Tecnologías de la información y la comunicación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Producto financiero',
         desarrolloContenidos: true,
       },
     ],
