@@ -30,8 +30,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
+            titulo: 'Tipo de consumidor financiero',
+            hash: 't1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Características del consumidor financiero ',
+            hash: 't1_2',
           },
         ],
       },

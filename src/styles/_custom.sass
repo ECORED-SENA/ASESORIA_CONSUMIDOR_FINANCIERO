@@ -1,3 +1,5 @@
+//----------- Banner
+
 .banner-principal__img
   background-image: url("../assets/curso/portada/banner-princiapal2.png"), url("../assets/curso/portada/banner-princiapal.png")
   align-self: stretch
@@ -18,7 +20,49 @@
     background-position: 50% 60%, center
   100%
     background-position: 50% 30%, center
+
+//----------- Colores
+
+.BG10
+  background-color:  transparentize($color-primario, 0.8) !important
+
+.BG20
+  background-color: transparentize($color-secundario, 0.8) !important
+
+.BG30
+  background-color: transparentize($color-acento-contenido, 0.8) !important
+
+.BG40
+  background-color: transparentize($color-acento-botones, 0.8) !important
+
+.tarjeta--verde
+  background-color: #E6F6E3
+
+.bloque-texto-d.color-primario:before
+  background-color:  transparentize($color-primario, 0.8) !important
+
+//----------- Varios
+
+.BRtop
+  border-radius: 20px 20px 0 0
+
+.BRbtn
+  border-radius: 0 0 20px 20px
+
+.bg00
+  background-image: url("../assets/curso/temas/bg00.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+
+  &--01
+    @extend .bg00
+    background-position: top
   
+  &--02
+    @extend .bg00
+    background-position: center 140px
+
+
 .bg01
   background-image: url("../assets/curso/temas/t0_01.jpg")
   border-radius: 16px
@@ -38,3 +82,84 @@
 
 .Separador
   opacity: 0.3 !important
+
+.p-esp01
+  padding: auto
+
+.Bf01
+  position: relative !important
+  &::before
+    content: ""
+    background-color: transparentize($color-secundario, 0.8)
+    display: block
+    position: absolute
+    top: 0
+    left: 55%
+    right: 0
+    bottom: 0
+
+.imgCenter
+  display: flex
+  align-items: center
+  height: 100%
+
+.mN01
+  margin: -40px 0
+
+.my-6
+  margin-top: 4.5rem!important
+  margin-bottom: 4.5rem!important
+
+@media screen and (max-width: 991px)
+  .Bf01
+    &::before
+      top: 50%
+      left: 0
+
+  .imgCenter
+    width: 80%
+    margin: auto
+
+  .mN01
+    margin: 0
+
+//----------- Animación Componente Hover
+
+.TFcontainer
+  position: relative
+  width: 100%
+
+.TFimage
+  display: block
+  width: 100%
+  height: 350px
+  object-fit: cover !important
+  border-radius: 16px
+
+.TFoverlay
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  border-radius: 16px
+  overflow: hidden
+  width: 100%
+  height: 63px
+  transition: .5s ease
+
+  &--01
+    @extend .TFoverlay
+    background-color: transparentize($color-primario, 0.1)
+  
+  &--02
+    @extend .TFoverlay
+    background-color: #C5EABE
+
+.TFcontainer:hover .TFoverlay
+  height: 100%
+
+@media screen and (max-width: 991px)
+  .TFimage
+    height: 200px 
+
+//----------- 
