@@ -39,7 +39,7 @@
     p.mb-5 La entidad encargada de vigilar las entidades financieras es la Superintendencia Financiera de Colombia (SFC), dentro de estas entidades vigiladas se encuentran:
 
     .row.justify-content-center.mb-5
-      .col-md-10
+      .col-lg-10
         figure
           img.br01(src='@/assets/curso/temas/t1_05.svg', alt='Entidades financieras')
     
@@ -133,8 +133,10 @@
     
     p.mb-4 Dentro de los consumidores actuales, se encuentran  los consumidores activos, quienes en la actualidad adquieren productos o servicios ofrecidos por el sector financiero; los adquieren con frecuencia, se puede decir que cuentan mínimo con un producto permanente con la entidad, como, por ejemplo, una cuenta de ahorros o una tarjeta de crédito; en cuanto a entidades bancarias, en cuanto a bolsas de valores, se puede decir que son personas que cuentan con acciones o las personas que cotizan en un fondo de pensión y cesantías, por citar algunos ejemplos.
 
-    p.mb-5 En cuanto a los consumidores potenciales, se encuentran: consumidor en la competencia y consumidor con decisión de compra, para los cuales las entidades financieras deben crear estrategias de marketing para atraerlos.
+    p En cuanto a los consumidores potenciales, se encuentran: consumidor en la competencia y consumidor con decisión de compra, para los cuales las entidades financieras deben crear estrategias de marketing para atraerlos.
 
+    Separador
+    
     #t1_2.titulo-segundo.color-acento-contenido
       h2 1.2. Características del consumidor financiero
     

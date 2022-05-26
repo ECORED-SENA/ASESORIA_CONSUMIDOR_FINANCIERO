@@ -50,8 +50,8 @@
   border-radius: 0 0 20px 20px
 
 .bg00
-  background-image: url("../assets/curso/temas/bg00.jpg")
-  background-size: cover
+  background-image: url("../assets/curso/temas/bg00.svg")
+  background-size: contain
   background-repeat: no-repeat
 
   &--01
@@ -72,6 +72,11 @@
   background-image: url("../assets/curso/temas/t1_04.jpg")
   border-radius: 8px
   background-size: cover
+
+.bg03
+  background-image: url("../assets/curso/temas/bg01.svg")
+  background-size: contain
+  background-repeat: no-repeat
 
 .br01
   border-radius: 16px
@@ -97,6 +102,18 @@
     left: 55%
     right: 0
     bottom: 0
+  
+.Bf02
+  position: relative !important
+  &::before
+    content: ""
+    background-color: transparentize($color-secundario, 0.8)
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    right: 55%
+    bottom: 0
 
 .imgCenter
   display: flex
@@ -115,6 +132,11 @@
     &::before
       top: 50%
       left: 0
+  
+  .Bf02
+    &::before
+      right: 0
+      bottom: 55%
 
   .imgCenter
     width: 80%
