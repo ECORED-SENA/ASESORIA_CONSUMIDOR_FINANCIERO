@@ -48,6 +48,26 @@ export default {
         numero: '2',
         titulo: 'Asesoría y servicio al cliente ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Proceso de atención y servicio al cliente ',
+            hash: 't2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Alternativas de productos y servicios',
+            hash: 't2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Técnicas de comunicación',
+            hash: 't2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -55,6 +75,20 @@ export default {
         numero: '3',
         titulo: 'Venta de productos financieros',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Recolección de información',
+            hash: 't3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Técnica de ventas',
+            hash: 't3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
