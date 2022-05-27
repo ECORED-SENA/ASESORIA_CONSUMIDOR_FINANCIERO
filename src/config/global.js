@@ -63,7 +63,7 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
+            numero: '2.3',
             titulo: 'Técnicas de comunicación',
             hash: 't2_3',
           },

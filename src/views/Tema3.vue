@@ -16,7 +16,7 @@
         p Dentro de las entidades financieras que ofrecen productos financieros, se encuentran los bancos, las bolsas de valores, proveedores de seguros, el Estado a través del Banco de la República, franquicias de tarjetas de crédito, fondos de pensiones y cesantías, entre otras entidades vigiladas por la Superintendencia Financiera de Colombia (SFC).
       .col-lg-5
         figure
-          img.br01(src='@/assets/curso/temas/t3_01.jpg', alt='Venta de productos financieros')
+          img(src='@/assets/curso/temas/t3_01.jpg', alt='Venta de productos financieros')
     
     Separador
 
@@ -26,7 +26,7 @@
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0
         figure
-          img.br01(src='@/assets/curso/temas/t3_02.jpg', alt='Recolección de información')
+          img(src='@/assets/curso/temas/t3_02.jpg', alt='Recolección de información')
       .col-lg-7
         p En las entidades financieras, es muy usual que el consumidor contacte o busque satisfacer una necesidad, o que la entidad financiera contacte al consumidor; esto se da gracias a las bases de datos y la información previa que tiene la entidad de sus consumidores o de los consumidores potenciales; cada uno de los casos se da de acuerdo con una necesidad.
         .BG20.p-3.mb-4
@@ -63,7 +63,7 @@
 
       .col-lg-5
         figure
-          img.br01(src='@/assets/curso/temas/t3_03.png', alt='recolección de datos primarios')
+          img(src='@/assets/curso/temas/t3_03.png', alt='recolección de datos primarios')
     
     p Estas fuentes son de gran valor, brindan un panorama del entorno en el cual están inmersos la organización, los clientes, los proveedores y otros actores que contribuyen para dar valor a las entidades.
 
@@ -85,10 +85,56 @@
           .tarjeta.BG10.Edit01
             .p-4
               p.mb-0 La entidad financiera se pone en contacto con el consumidor de acuerdo con el estudio que ha realizado.
-
     
+    p En la primera escena, debe existir una comunicación activa, el asesor debe ser muy receptivo para obtener información de la necesidad del consumidor; estas necesidades pueden ser de ahorro o inversión; cada entidad contará con unos criterios establecidos de confirmación de información, así: 
+    
+    .row.gx-5.mb-5
+      .col-lg-4
+        .ColorHv01.p-4.Br01
+          img.w-75.mx-auto.my-4(src='@/assets/curso/temas/t3_06.png' alt='Los escépticos')
+          h4.text-center.mb-0 #[strong No. de documento de identidad]
+      .col-lg-4
+        .ColorHv01.p-4.Br01
+          img.w-75.mx-auto.my-4(src='@/assets/curso/temas/t3_07.png' alt='Los escépticos')
+          h4.text-center.mb-0 #[strong Domicilio]
+      .col-lg-4
+        .ColorHv01.p-4.Br01
+          img.w-75.mx-auto.my-4(src='@/assets/curso/temas/t3_08.png' alt='Los escépticos')
+          h4.text-center.mb-0 #[strong Ocupación]
+    
+    .row.align-items-center.mb-4
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/t3_09.png', alt='Considere relevantes e importantes')
+      .col-lg-8
+        p Entre otros que la entidad considere relevantes e importantes, como los ingresos, el patrimonio o el nivel de endeudamiento.
 
-        
+        p En cuanto a los documentos que se deben requerir al consumidor, dependerá del producto financiero que se pretende adquirir y de la entidad que lo solicite, de acuerdo con las políticas organizacionales.
+
+        p En segundo lugar, cuando la entidad entra a contactar al consumidor, principalmente se debe a que es un consumidor activo, el cual tiene unos parámetros de comportamiento que permiten inferir una necesidad de productos financieros.
+
+        p.mb-0 Es de resaltar que la norma internacional ISO 9001:2015 establece como requisito que la organización debe cuidar la propiedad perteneciente a los clientes o a los proveedores externos mientras esté bajo el control de la organización o esté siendo utilizado por la misma; esto como un proceso de operación.
+    
+    Separador
+
+    #t3_2.titulo-segundo.color-acento-contenido
+      h2 3.2. Técnica de ventas
+    
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 4.
+      span Modelos técnicas de ventas
+    figure.mb-5
+      img(src='@/assets/curso/temas/t3_10.svg', alt='Modelos técnicas de ventas')
+
+    p De acuerdo con estos modelos tradicionales, se establece un procedimiento de técnica de ventas, en el cual se debe captar la atención del consumidor, el interés del consumidor, para dar a conocer el portafolio de productos, de acuerdo con la necesidad del cliente, a quien se debe persuadir para que adquiera los productos; y se cierra o finaliza con la venta.
+
+    p.mb-4 Las organizaciones, dentro de sus técnicas de ventas, deben realizar seguimiento a la misma después del cierre, con la finalidad de conocer si se cumplió con las expectativas y se generó fidelidad por parte del consumidor.
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 5.
+      span Proceso técnico de ventas
+    figure.mb-4
+      img(src='@/assets/curso/temas/t3_11.svg', alt='Proceso técnico de ventas')
 
 </template>
 
