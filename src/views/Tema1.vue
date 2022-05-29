@@ -33,8 +33,8 @@
                   p.text-small.mb-0 Título I, Capítulo I, define al consumidor financiero como todo cliente, usuario o cliente potencial de las entidades vigiladas.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36841" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+                    span Ley 1328 de 2009
+                    i.fas.fa-file-alt
     
     p.mb-5 La entidad encargada de vigilar las entidades financieras es la Superintendencia Financiera de Colombia (SFC), dentro de estas entidades vigiladas se encuentran:
 

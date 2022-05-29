@@ -33,7 +33,7 @@
           p.mb-0 De acuerdo con las bases de datos y los estudios de mercado realizados por las entidades financieras, se tiene un conocimiento previo del consumidor, quién es, dónde está ubicado, edad, género, ingresos promedios, dónde labora, gustos y necesidades; en esta primera etapa, se realiza una primera recolección de información.
         p.mb-0 La información financiera de los consumidores se obtiene empleando diferentes técnicas e instrumentos de recolección de información, dentro de los cuales se encuentran las fuentes primarias y las fuentes secundarias.
   
-  .container.bg03.tarjeta--blanca.px-4.pt-5.px-md-5
+  .container.bg03.tarjeta--blanca.px-4.pt-5.px-md-5.BRbtn.mb-5
 
     .row.align-items-center.mb-4
       .col-lg-7.mb-4.mb-lg-0

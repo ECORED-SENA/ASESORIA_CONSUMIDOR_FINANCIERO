@@ -146,32 +146,84 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto: 'Asesoría y servicio al cliente',
+      tipo: 'Libro',
+      link:
+        'https://books.google.es/books?id=WWWgBwAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto: 'Proceso de atención y servicio al cliente',
+      tipo: 'Norma internacional',
+      link: 'https://www.iso.org/obp/ui#iso:std:iso:9001:ed-5:v1:es',
+    },
+    {
+      texto: 'Proceso de atención y servicio al cliente',
+      tipo: 'Ley',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1328_2009.html',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Código CIIU',
+      significado:
+        'Los códigos CIIU describen las actividades económicas de las personas naturales o jurídicas.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<em>E-commerce</em>',
+      significado: 'Es el comercio electrónico o comercio por Internet.',
+    },
+    {
+      termino: '<em>Marketing</em>',
+      significado:
+        'Creación de estrategias dirigidas al consumidor, por medio de las cuales se quiere estimular la compra de un bien o servicio.',
+    },
+    {
+      termino: '<em>Neuromarketing</em>',
+      significado:
+        'Estrategia del <em>marketing</em> basada en la ciencia y la psicología.',
+    },
+    {
+      termino: 'Nicho de mercado',
+      significado:
+        'Porción o segmentación del mercado que posee características similares.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'CESA. (2020). Los 4 clientes bancarios que dan valor a la marca.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.cesa.edu.co/news/los-4-clientes-bancarios-que-dan-valor-a-la-marca/',
+    },
+    {
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2020). CF1 Introducción - Técnico Laboral en Servicios y Operaciones Microfinancieras [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=07DAKQU7SG4',
+    },
+    {
+      referencia:
+        'Organización Internacional de Normalización [ISO]. (2015). Sistemas de gestión de la calidad — Requisitos (ISO 9001).',
+      link: 'https://www.iso.org/obp/ui#iso:std:iso:9001:ed-5:v1:es',
+    },
+    {
+      referencia:
+        'Ley 1328 de 2009. Por la cual se dictan normas en materia financiera, de seguros, del mercado de valores y otras disposiciones. Julio 15 de 2009. DO. No. 47.411.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1328_2009.html',
+    },
+    {
+      referencia: 'Palomo, M. (2014). Atención al cliente. Paraninfo.',
+      link:
+        'https://books.google.es/books?id=WWWgBwAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+    },
+    {
+      referencia: 'Sánchez, J. (2016). Servicio. Economipedia.',
+      link: 'https://economipedia.com/definiciones/servicio.html',
+    },
+    {
+      referencia: 'Sánchez, J. (2018). Asesoría. Economipedia.',
+      link: 'https://economipedia.com/definiciones/asesoria.html',
     },
   ],
   creditos: {

@@ -7,14 +7,16 @@
         span 4
       h1 Tecnologías de la Información y la Comunicación
     
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t4_01.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Para compartir la información, en la actualidad se tiene acceso a diferentes formatos, fuentes y recursos que permiten que se lleve a cabo de manera efectiva y acorde con las necesidades de los clientes; de esta manera, las Tecnologías de la Información y las Comunicaciones (TIC) son el conjunto de recursos, herramientas, equipos, programas informáticos, aplicaciones, redes y medios que permiten la compilación, procesamiento, almacenamiento y transmisión de información como: voz, datos, texto, video e imágenes (Art. 6, Ley 1341 de 2009).
-
-        p.mb-0 Las organizaciones del sector financiero centran sus esfuerzos en la digitalización de sus productos financieros, como la implementación de las sucursales virtuales y billeteras digitales, a través de las cuales se pueden realizar múltiples gestiones; y en las estrategias de marketing, por medio de las cuales se pretende atraer a los clientes activos y potenciales.
+        p
+          | Para compartir la información, en la actualidad se tiene acceso a diferentes formatos, fuentes y recursos que permiten que se lleve a cabo de manera efectiva y acorde con las necesidades de los clientes; de esta manera, las Tecnologías de la Información y las Comunicaciones (TIC) son el conjunto de recursos, herramientas, equipos, programas informáticos, aplicaciones, redes y medios que permiten la compilación, procesamiento, almacenamiento y transmisión de información como: voz, datos, texto, video e imágenes (Art. 6, Ley 1341 de 2009).
+          br
+          br
+          | Las organizaciones del sector financiero centran sus esfuerzos en la digitalización de sus productos financieros, como la implementación de las sucursales virtuales y billeteras digitales, a través de las cuales se pueden realizar múltiples gestiones; y en las estrategias de marketing, por medio de las cuales se pretende atraer a los clientes activos y potenciales.
     
     .row.align-items-center.mb-4
       .col-lg-7.mb-4.mb-lg-0
@@ -29,7 +31,7 @@
         figure
           img(src='@/assets/curso/temas/t4_02.jpg', alt='Contacto con los dispositivos digitales')
   
-  .container.bg03.tarjeta--blanca.px-4.pt-5.px-md-5
+  .container.bg03.tarjeta--blanca.px-4.pt-5.px-md-5.BRbtn.mb-5
 
     .row.align-items-center.my-4
       .col-lg-5.mb-4.mb-lg-0
@@ -63,6 +65,42 @@
           li 
             i.fas.fa-donate
             | Plataformas de franquicias para realizar pagos online
+      
+    p Algunas de las plataformas en las que es posible realizar consultas del sector financiero en Colombia son la Superintendencia Financiera de Colombia (SFC), el Banco de la República, Asobancaria, centrales de riesgo como:
+
+    figure.mb-4
+      img(src='@/assets/curso/temas/t4_04.svg', alt='Plataformas financieras')
+
+    p En particular, los canales de comunicación son el medio por el cual se transmite el mensaje del emisor al receptor, son el primer punto de contacto entre la entidad y el consumidor; con los avances tecnológicos, los modelos de canales de comunicación han cambiado de lo tradicional a lo moderno.
+
+    p.mb-5 Dentro de los canales de comunicación, se encuentran los personales, los interpersonales y los interactivos, así:
+
+    .row.justify-content-center
+      .col-lg-10    
+        PasosA.color-acento-contenido.mb-5(tipo="n")
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h3 Canal de comunicación personal 
+              p Es el que permite tener una mayor interacción con el consumidor; algunos ejemplos son la atención en oficina, la llamada telefónica o el chat.
+            .col-md-2
+              figure
+                img(src='@/assets/curso/temas/t4_05.svg', alt='Canal de comunicación personal')
+          
+          .row.justify-content-end
+            .col-md-2.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/temas/t4_06.svg', alt='Canal interpersonal')
+            .col-md-6
+              h3 Canal interpersonal
+              p Es la comunicación que se emite a muchos receptores, pero está dirigida a un grupo de personas específico; como ejemplos, se tiene el e-mail, las circulares, los diarios oficiales.
+          
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h3 Canales interactivos
+              p Son los que permiten tener una mayor participación en los medios digitales, el consumidor interactúa y espera una respuesta de la entidad en esta interacción, el medio que más se emplea son las redes sociales.
+            .col-md-2
+              figure
+                img(src='@/assets/curso/temas/t4_07.svg', alt='Canales interactivos')
 
 </template>
 

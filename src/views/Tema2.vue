@@ -187,11 +187,11 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Enlace web - La Ley 1328 de 2009, en su Artículo 8º
-                  p.text-small.mb-0 consagró para las entidades vigiladas por la Superintendencia Financiera de Colombia la necesidad de implementar un Sistema de Atención al Consumidor Financiero SAC.
+                  p.text-small.mb-0 Consagró para las entidades vigiladas por la Superintendencia Financiera de Colombia la necesidad de implementar un Sistema de Atención al Consumidor Financiero SAC.
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36841#:~:text=Las%20entidades%20vigiladas%20deber%C3%A1n%20suministrar,establecen%20con%20las%20entidades%20vigiladas." target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+                  a.boton.color-acento-botones(href="https://funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36841#:~:text=Art%C3%ADculo%208%C2%B0." target="_blank")
+                    span Ley 1328 de 2009, art. 8º
+                    i.fas.fa-file-alt
       
     .row.align-items-center
       .col-lg-5.mb-4.mb-lg-0
