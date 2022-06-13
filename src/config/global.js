@@ -146,18 +146,23 @@ export default {
   },
   complementario: [
     {
-      texto: 'Asesoría y servicio al cliente',
+      tema: 'Asesoría y servicio al cliente',
+      referencia: 'Palomo, M. (2014). Atención al cliente. Paraninfo.',
       tipo: 'Libro',
       link:
         'https://books.google.es/books?id=WWWgBwAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
-      texto: 'Proceso de atención y servicio al cliente',
+      tema: 'Proceso de atención y servicio al cliente',
+      referencia:
+        'Organización Internacional de Normalización [ISO]. (2015). Sistemas de gestión de la calidad — Requisitos (ISO 9001).',
       tipo: 'Norma internacional',
       link: 'https://www.iso.org/obp/ui#iso:std:iso:9001:ed-5:v1:es',
     },
     {
-      texto: 'Proceso de atención y servicio al cliente',
+      tema: 'Proceso de atención y servicio al cliente',
+      referencia:
+        'Ley 1328 de 2009. Por la cual se dictan normas en materia financiera, de seguros, del mercado de valores y otras disposiciones. Julio 15 de 2009. DO. No. 47.411.',
       tipo: 'Ley',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_1328_2009.html',
@@ -241,6 +246,26 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Maria Alejandra Tovar',
+        cargo: 'Experto temático',
+        centro: 'Centro de industria y la construcción - Regional Tolima',
+      },
+      {
+        nombre: 'Leydy Jhuliana Jaramillo Mejía',
+        cargo: 'Diseñador instruccional ',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Asesora Metodológica',
+        centro: 'Centro de diseño y metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -250,19 +275,73 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Anllelo Andres Reina Montañez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Luis Gabriel Urueta Alvarez',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

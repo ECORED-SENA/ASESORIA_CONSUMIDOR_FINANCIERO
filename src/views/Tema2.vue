@@ -3,23 +3,23 @@
   BannerInterno
   .container.BRtop.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up")
       .titulo-principal__numero
         span 2
       h1 Asesoría y servicio al cliente 
     
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-4(data-aos="fade")
       .col-lg-7.mb-4.mb-lg-0
         p Las entidades financieras existen debido a que los consumidores tienen unas necesidades a satisfacer, por lo cual se deben crear procesos, protocolos, canales y medios pertinentes, que permitan a la entidad llegar a sus consumidores y satisfacer esas necesidades, sin ellos, las entidades no existirían.
 
         p La asesoría y el servicio al cliente son de suma importancia dentro de las organizaciones, son el trato adecuado y la relación más cercana que debe existir con el cliente, son ellos el espíritu de las organizaciones, sin ellos no existirían. Con la asesoría, se busca informar y orientar al cliente, y desde el servicio, se crean estrategias para que adquiera un producto o servicio.
-      .col-lg-5
+      .col-lg-5(data-aos="flip-right")
         figure
           img.br01(src='@/assets/curso/temas/t2_01.jpg', alt='Asesoría y servicio al cliente')
     
   .container.bg00--01.tarjeta--blanca.px-4.pt-5.px-md-5
 
-    SlyderA.mb-5.mt-4(tipo="b")
+    SlyderA.mb-5.mt-4(tipo="b")(data-aos="slide-down")
       .row.align-items-end.justify-content-center
         .col-lg-10.mb-4.mb-lg-0
           .bloque-texto-d.color-primario.p-4
@@ -56,8 +56,8 @@
           figure
             img.br01(src='@/assets/curso/temas/t2_02.svg', alt='La asesoría')
       
-    .row.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center(data-aos="fade-down")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="flip-right")
         figure
           img.br01(src='@/assets/curso/temas/t2_03.png', alt='Asesor comercial de productos financieros')
       .col-lg-8
@@ -71,10 +71,10 @@
     
     Separador
 
-    #t2_1.titulo-segundo.color-acento-contenido
+    #t2_1.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 2.1. Proceso de atención y servicio al cliente
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="flip-down")
       .col-lg-7.mb-4.mb-lg-0
         p Las entidades financieras deben tener una estructura clara y definida del proceso de atención y servicio al cliente dentro de su marco estratégico y de planeación de la entidad, en el cual se involucra, principalmente, el asesor comercial, al ser el primer contacto entre la entidad y el consumidor.
 
@@ -82,15 +82,15 @@
 
         p En las entidades financieras, el servicio al cliente es un factor relevante de generación de valor, por lo cual se debe realizar un adecuado diseño de construcción, estrategia y proceso de enfoque al cliente, como se detalla a continuación. 
 
-      .col-lg-5
+      .col-lg-5(data-aos="flip-left")
         figure
           img.br01(src='@/assets/curso/temas/t2_04.png', alt='Proceso de atención y servicio al cliente')
       
-    .video.mb-5
+    .video.mb-5(data-aos="fade")
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    .row.align-items-center.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.mb-5(data-aos="fade-down")
+      .col-lg-5.mb-4.mb-lg-0(data-aos="flip-left")
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span ISO 9001:2015 - Cliente
@@ -100,13 +100,13 @@
         p Como lo detalla la norma internacional ISO 9001:2015, Sistema de gestión de calidad, el enfoque al cliente es indispensable dentro de las organizaciones en su planeación estratégica, lo que les permite:
 
         ul.lista-ul--color
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Ofrecer productos y servicios que satisfacen las necesidades de los consumidores.
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Gestionar los riesgos de la entidad.
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Lograr la conformidad en cada una de sus gestiones y ejes estratégicos.
         
@@ -115,44 +115,44 @@
         p En cuanto al proceso de operación, uno de los factores más relevantes es la comunicación, en la cual se debe tener en cuenta:
 
         ul.lista-ul--color
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Información de los productos y servicios.
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Tratar las consultas, los contratos o los pedidos, incluyendo los cambios.
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Obtener la retroalimentación relativa a los productos y servicios, incluyendo las quejas de los clientes.
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Manipular o controlar la propiedad del cliente.
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-donate
             | Establecer los requisitos específicos para las acciones de contingencia, cuando sea pertinente.
     
     .row.align-items-center.mb-4
       .col-lg-7.mb-4.mb-lg-0
         p Dentro del proceso de servicio al cliente, se tiene acceso a la información del cliente, por lo cual, de acuerdo con la ISO 9001:2015, la organización debe cuidar la propiedad perteneciente a los clientes o a proveedores externos mientras esté bajo el control de la organización o esté siendo utilizada por la misma; esto como un proceso de operación.
-        .BG20.p-3.mb-4
+        .BG20.p-3.mb-4(data-aos="fade")
           p.mb-0 En cuanto a la evaluación de desempeño, se debe propender, como objetivo, a la satisfacción del cliente, por lo cual se debe realizar el correcto seguimiento de la percepción de los clientes, en el cual se evidencia el cumplimiento de sus necesidades y expectativas.
-        .row.align-items-center.justify-content-center.mb-5
-          .col-4.col-lg-2.mb-4.mb-lg-0
+        .row.align-items-center.justify-content-center.mb-5(data-aos="fade-up")
+          .col-4.col-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
             figure
               img.br01(src='@/assets/curso/temas/t2_07.png', alt='Monedas')
           .col-lg-10
             p Como norma internacional y siguiendo los lineamientos del sistema de gestión de calidad, se debe concebir este proceso como la línea base para todas las organizaciones en cuanto a su proceso de servicio al cliente, sin embargo, las características de cada una pueden demandar unos procesos ajustados de  acuerdo con las necesidades, sin olvidar que el fin último es la satisfacción y exclusividad del cliente.
-      .col-lg-5
+      .col-lg-5(data-aos="flip-left")
         figure
           img.br01(src='@/assets/curso/temas/t2_06.jpg', alt='cuidar la propiedad perteneciente a los clientes')
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="flip-down")
       h5 Figura 3.
       span Modelo proceso servicio al cliente
-    figure.mb-4
+    figure.mb-4(data-aos="flip-up")
       img.br01(src='@/assets/curso/temas/t2_08.svg', alt='Modelo proceso servicio al cliente')
     
-    .row.my-5
+    .row.my-5(data-aos="fade-down")
       .col-lg-7.BG20.p-5
         p En cuanto al proceso de indagación sobre el cliente, se debe realizar una segmentación, en la cual se deben investigar las características de los clientes activos y los posibles clientes potenciales en cuanto a sus gustos, preferencias y necesidades; esto con la finalidad de ofrecer un servicio adaptado a cada cliente, lo cual permite a la organización salir de parámetros estandarizados y lograr prestar un servicio más personalizado.
 
@@ -167,19 +167,19 @@
     
     .row.align-items-end.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-4(data-aos="fade")
           .row.align-items-end.justify-content-center
             .col-lg-10
               p En cuanto a la recopilación de información, se debe estar atento a lo que requiere el cliente, cuál es su necesidad a satisfacer, como también las dudas e inquietudes que pueda presentar en el momento de la comunicación, por lo cual, la escucha activa es fundamental en todo el proceso, pues también permitirá dar solución al conflicto (necesidad) o a las quejas o reclamos que el mismo pueda tener, y de esta forma, poder dar una finalización en la que la demanda del cliente es satisfecha.
-            .col-lg-2
+            .col-4.col-lg-2(data-aos="flip-right")
               figure
                 img(src='@/assets/curso/temas/t2_10.svg', alt='Características del consumidor financiero')
         
-        p Sin embargo, muchas de las organizaciones dejan a un lado el servicio posventa o el seguimiento a la venta, lo cual debe ser relevante en el proceso de servicio al cliente. En este punto, efectivamente, se logra saber si el cliente está satisfecho, si se cumplió con su expectativa y se logró la fidelización; o por el contrario, si se deben tomar medidas correctivas en el proceso.
+        p(data-aos="fade") Sin embargo, muchas de las organizaciones dejan a un lado el servicio posventa o el seguimiento a la venta, lo cual debe ser relevante en el proceso de servicio al cliente. En este punto, efectivamente, se logra saber si el cliente está satisfecho, si se cumplió con su expectativa y se logró la fidelización; o por el contrario, si se deben tomar medidas correctivas en el proceso.
 
         p En cuanto al consumidor financiero:
 
-        .tarjeta.color-primario.p-3.bg02
+        .tarjeta.color-primario.p-3.bg02(data-aos="fade-down")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/t1_03.svg")
@@ -193,8 +193,8 @@
                     span Ley 1328 de 2009, art. 8º
                     i.fas.fa-file-alt
       
-    .row.align-items-center
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center(data-aos="fade-up")
+      .col-lg-5.mb-4.mb-lg-0(data-aos="flip-right")
         figure
           img.br01(src='@/assets/curso/temas/t2_11.png', alt='Consumidor financiero')
       .col-lg-7
@@ -208,12 +208,12 @@
     
     Separador
 
-    #t2_2.titulo-segundo.color-acento-contenido
+    #t2_2.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 2.2. Alternativas de productos y servicios
 
-    p La alternativa de productos y servicios depende de la necesidad y la expectativa que el cliente desee satisfacer; cada portafolio de servicios se debe adaptar al cliente; estas necesidades a satisfacer se identifican dentro del proceso de servicio al cliente y de acuerdo con los protocolos establecidos por cada organización. Observe cómo se sugiere realizar la caracterización.
+    p(data-aos="fade-down") La alternativa de productos y servicios depende de la necesidad y la expectativa que el cliente desee satisfacer; cada portafolio de servicios se debe adaptar al cliente; estas necesidades a satisfacer se identifican dentro del proceso de servicio al cliente y de acuerdo con los protocolos establecidos por cada organización. Observe cómo se sugiere realizar la caracterización.
 
-    .video.mb-5
+    .video.mb-5(data-aos="fade")
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.align-items-center.mb-4
@@ -225,17 +225,17 @@
         p La tasa de colocación es el interés que cobra la entidad por colocar dinero a circular en la economía; dentro de las alternativas de producto o servicio, se encuentran los créditos.
 
         p La tasa de captación es el interés que paga la entidad por captar dinero de las personas; dentro de las alternativas de producto o servicio, se encuentran las cuentas de ahorro, los certificados de depósito a término fijo (CDT), los bonos, entre otros.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-down")
         figure
           img.br01(src='@/assets/curso/temas/t2_12.svg', alt='entidades financieras')
     
     Separador
 
-    #t2_3.titulo-segundo.color-acento-contenido
+    #t2_3.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 2.3. Alternativas de productos y servicios
 
-    .row.align-items-center
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center(data-aos="fade-up")
+      .col-lg-5.mb-4.mb-lg-0(data-aos="flip-right")
         figure
           img.br01(src='@/assets/curso/temas/t2_13.jpg', alt='Alternativas de productos y servicios')
       .col-lg-7
@@ -258,28 +258,30 @@
   
   .container.BRbtn.bg00--01.tarjeta--blanca.px-4.pt-5.px-md-5.mb-5
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-10
         figure
           img.br01(src='@/assets/curso/temas/t2_16.svg', alt='La comunicación')
     
-    p.mb-5 A un clic, el cliente está en contacto con la organización, manifiesta su necesidad, su deseo, su gusto, a dónde va, qué quiere; y aquí se debe ser muy ágil con las estrategias comunicativas digitales y de esta forma atraer más clientes.
+    p.mb-5(data-aos="fade") A un clic, el cliente está en contacto con la organización, manifiesta su necesidad, su deseo, su gusto, a dónde va, qué quiere; y aquí se debe ser muy ágil con las estrategias comunicativas digitales y de esta forma atraer más clientes.
   
-    .row.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.mb-4(data-aos="fade-down")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="flip-down")
         figure
           img.br01(src='@/assets/curso/temas/t2_15.png', alt='El cliente')
       .col-lg-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
-          .row(titulo="Para reflexionar")
-            p piense cuando realiza la consulta en un buscador sobre un producto que desea adquirir; de forma inmediata, las plataformas digitales le ofrecen todos los portafolios de productos y servicios donde lo puede adquirir, marcas, precios, canales de distribución. El cliente comunicó mediante un mensaje lo que quería y el receptor recibe la información y le ofrece lo que quiere para satisfacer su necesidad.
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta BGwhite")
+          .row.justify-content-center(titulo="Para reflexionar")
+            .col-lg-11
+              p piense cuando realiza la consulta en un buscador sobre un producto que desea adquirir; de forma inmediata, las plataformas digitales le ofrecen todos los portafolios de productos y servicios donde lo puede adquirir, marcas, precios, canales de distribución. El cliente comunicó mediante un mensaje lo que quería y el receptor recibe la información y le ofrece lo que quiere para satisfacer su necesidad.
 
-            p.mb-0 Es muy importante abordar el canal de comunicación por medio del cual interactúa con el cliente; las estrategias son distintas para cada canal, y más hablando de la era digital actual.
+              p.mb-0 Es muy importante abordar el canal de comunicación por medio del cual interactúa con el cliente; las estrategias son distintas para cada canal, y más hablando de la era digital actual.
           
-          .row(titulo="Al interactuar")
-            p con el cliente, debe tener en cuenta la comunicación verbal y la comunicación no verbal. En cuanto a la comunicación verbal, debe ser claro, usar un lenguaje adecuado, una tonalidad de voz apropiada, con una buena técnica de vocalización, que logre ser entendido; también es muy recomendable usar técnicas que le permitan abordar el miedo a expresarse, que le permitan controlar los nervios.
+          .row.justify-content-center(titulo="Al interactuar")
+            .col-lg-11
+              p con el cliente, debe tener en cuenta la comunicación verbal y la comunicación no verbal. En cuanto a la comunicación verbal, debe ser claro, usar un lenguaje adecuado, una tonalidad de voz apropiada, con una buena técnica de vocalización, que logre ser entendido; también es muy recomendable usar técnicas que le permitan abordar el miedo a expresarse, que le permitan controlar los nervios.
 
-            p.mb-0 La comunicación no verbal es muy importante dentro del proceso de comunicación, por lo cual, debe tener una correcta postura de su cuerpo, un rostro amable, amigable con el cliente y que genere seguridad, debe mirar siempre a la persona con la cual interactúa, esto transmite seguridad, se debe tener cuidado con la posición de las manos, se debe tener una distancia adecuada; por último y no menos importante, se debe llevar un vestuario adecuado.
+              p.mb-0 La comunicación no verbal es muy importante dentro del proceso de comunicación, por lo cual, debe tener una correcta postura de su cuerpo, un rostro amable, amigable con el cliente y que genere seguridad, debe mirar siempre a la persona con la cual interactúa, esto transmite seguridad, se debe tener cuidado con la posición de las manos, se debe tener una distancia adecuada; por último y no menos importante, se debe llevar un vestuario adecuado.
 
 </template>
 

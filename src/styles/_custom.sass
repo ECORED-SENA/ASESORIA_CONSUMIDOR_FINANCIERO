@@ -35,11 +35,25 @@
 .BG40
   background-color: transparentize($color-acento-botones, 0.8) !important
 
-.tarjeta--verde
-  background-color: #E6F6E3
+.tarjeta--verde, .acordion__activo
+  background-color: #E6F6E3 !important
+
+.BGgris
+  background-color: #ebebeb
+  transition: 0.5s ease
+
+.BGwhite
+  background-color: white
+  transition: 0.5s ease
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: white !important
 
 .bloque-texto-d.color-primario:before
   background-color:  transparentize($color-primario, 0.8) !important
+
+th
+  font-size: 1.125em !important
 
 //----------- Varios
 
@@ -178,7 +192,6 @@
 .TFimage
   display: block
   width: 100%
-  height: 350px
   object-fit: cover !important
   border-radius: 16px
 
@@ -206,6 +219,6 @@
 
 @media screen and (max-width: 991px)
   .TFimage
-    height: 200px 
+    height: 240px 
 
 //----------- 

@@ -8,9 +8,11 @@
   .container.bg03.tarjeta--blanca.px-4.pt-5.px-md-5.BRbtn
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-8.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          
+    .row.justify-content-center
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

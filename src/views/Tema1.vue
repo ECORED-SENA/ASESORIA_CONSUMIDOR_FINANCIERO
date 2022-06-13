@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.BRtop.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up")
       .titulo-principal__numero
         span 1
       h1 Consumidor financiero
     
-    .row.align-items-center
+    .row.align-items-center(data-aos="fade")
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-left")
           img.br01(src='@/assets/curso/temas/t1_01.jpg', alt='Consumidor financiero')
       .col-lg-7
         p El sector financiero tiene como objeto la captación y colocación del dinero. En cuanto a la captación del dinero, son todas aquellas actividades que permiten que los consumidores financieros lleven su dinero a entidades financieras; como mecanismos, se encuentran las cuentas de ahorro, los CDT, entre otros
@@ -20,7 +20,7 @@
   
   .container.bg00--01.tarjeta--blanca.px-4.pt-5.px-md-5
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="slide-down")
       .col-md-10
         .tarjeta.color-primario.p-3.bg02
           .row.justify-content-around.align-items-center
@@ -36,55 +36,55 @@
                     span Ley 1328 de 2009
                     i.fas.fa-file-alt
     
-    p.mb-5 La entidad encargada de vigilar las entidades financieras es la Superintendencia Financiera de Colombia (SFC), dentro de estas entidades vigiladas se encuentran:
+    p.mb-5(data-aos="fade") La entidad encargada de vigilar las entidades financieras es la Superintendencia Financiera de Colombia (SFC), dentro de estas entidades vigiladas se encuentran:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10
         figure
           img.br01(src='@/assets/curso/temas/t1_05.svg', alt='Entidades financieras')
     
-    p Las personas que solicitan, adquieren o celebran un contrato para obtener un producto o servicio financiero en una entidad vigilada por la SFC se denominan consumidores financieros.
+    p(data-aos="fade") Las personas que solicitan, adquieren o celebran un contrato para obtener un producto o servicio financiero en una entidad vigilada por la SFC se denominan consumidores financieros.
 
     Separador
 
-    #t1_1.titulo-segundo.color-acento-contenido
+    #t1_1.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 1.1 Tipo de consumidor financiero
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-4(data-aos="fade-up")
       .col-lg-7.mb-4.mb-lg-0
         p Los consumidores financieros buscan satisfacer sus necesidades adquiriendo productos o servicios ofrecidos en el sector financiero, por lo cual es indispensable, para los asesores, caracterizar los tipos de consumidores financieros.
 
         p Los consumidores financieros se pueden clasificar en dos (2) grandes grupos: la persona natural y la persona jurídica, cada una con una naturaleza jurídica, comportamientos, localización, gustos y necesidades distintas, los cuales deben ser claramente identificados, con la finalidad de crear unos canales de comercialización adecuados, efectivos y eficaces. 
-      .col-lg-5
+      .col-lg-5(data-aos="flip-left")
         figure
           img.br01(src='@/assets/curso/temas/t1_06.png', alt='Tipo de consumidor financiero')
     
-    p.mb-5 Para ello, observe en qué se diferencia la persona natural de la persona jurídica 
+    p.mb-5(data-aos="fade") Para ello, observe en qué se diferencia la persona natural de la persona jurídica 
 
-    .row.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.mb-4(data-aos="fade-up")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="flip-right")
         figure
           img.br01(src='@/assets/curso/temas/t1_07.png', alt='Tipo de consumidor financiero')
       .col-lg-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
-          .row(titulo="La persona natural")
-            .col-md-7.mb-4.mb-md-0
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BGgris")
+          .row.justify-content-end(titulo="La persona natural")
+            .col-md-6.mb-4.mb-md-0
               p Se define como la persona que a nombre propio ejerce una actividad económica. En el caso de Colombia, se registra ante el Registro Único Tributario (RUT) como persona natural y se le asignan los códigos CIIU de acuerdo con la actividad económica que ejerce. La persona natural es la responsable de las obligaciones adquiridas con terceros.
           
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/t1_08.png', alt='La persona natural')
           
-          .row(titulo="La persona jurídica")
-            .col-md-7.mb-4.mb-md-0
+          .row.justify-content-end(titulo="La persona jurídica")
+            .col-md-6.mb-4.mb-md-0
               p Forma jurídica que se le da a una o más personas que voluntariamente desean conformar una sociedad para ejercer una actividad económica; estas personas pueden ser persona natural o persona jurídica; en el caso de la persona jurídica, la sociedad es la responsable de las obligaciones adquiridas con terceros, y al no cumplir con estas obligaciones, los socios deben responder de acuerdo con el tipo de constitución de la sociedad y de conformidad con la Ley.
           
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/t1_09.png', alt='La persona jurídica')
       
-    .row.justify-content-center.mb-5
-      .col-md-10
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-md-10(data-aos="fade")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span Persona natural vs. persona jurídica
@@ -109,7 +109,7 @@
                 td Patrimonio de la persona
                 td Patrimonio diferente al de los socios
     
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-down")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1_10.jpg')})`}"
           )
@@ -122,7 +122,7 @@
       
     p.mb-5 En la siguiente ilustración, se clasifica cada uno de los consumidores financieros y lo que los caracteriza.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
@@ -131,16 +131,16 @@
         figure
           img.br01(src='@/assets/curso/temas/t1_11.svg', alt='Tipo de consumidor')
     
-    p.mb-4 Dentro de los consumidores actuales, se encuentran  los consumidores activos, quienes en la actualidad adquieren productos o servicios ofrecidos por el sector financiero; los adquieren con frecuencia, se puede decir que cuentan mínimo con un producto permanente con la entidad, como, por ejemplo, una cuenta de ahorros o una tarjeta de crédito; en cuanto a entidades bancarias, en cuanto a bolsas de valores, se puede decir que son personas que cuentan con acciones o las personas que cotizan en un fondo de pensión y cesantías, por citar algunos ejemplos.
+    p.mb-4(data-aos="fade") Dentro de los consumidores actuales, se encuentran  los consumidores activos, quienes en la actualidad adquieren productos o servicios ofrecidos por el sector financiero; los adquieren con frecuencia, se puede decir que cuentan mínimo con un producto permanente con la entidad, como, por ejemplo, una cuenta de ahorros o una tarjeta de crédito; en cuanto a entidades bancarias, en cuanto a bolsas de valores, se puede decir que son personas que cuentan con acciones o las personas que cotizan en un fondo de pensión y cesantías, por citar algunos ejemplos.
 
     p En cuanto a los consumidores potenciales, se encuentran: consumidor en la competencia y consumidor con decisión de compra, para los cuales las entidades financieras deben crear estrategias de marketing para atraerlos.
 
     Separador
     
-    #t1_2.titulo-segundo.color-acento-contenido
+    #t1_2.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 1.2. Características del consumidor financiero
     
-    .row.my-6
+    .row.my-6(data-aos="fade")
       .col-lg-5.Bf01
         figure.imgCenter.position-relative
           img.br01.mN01(src='@/assets/curso/temas/t1_12.png', alt='Características del consumidor financiero')
@@ -154,25 +154,25 @@
   .container.BRbtn.bg00--02.tarjeta--blanca.px-4.pt-5.px-md-5.mb-5
 
     .row.justify-content-center.mb-5
-      .col-md-10.col-lg-6.mb-4.mb-lg-0
+      .col-md-10.col-lg-5.mb-4.mb-lg-0(data-aos="flip-left")
         .TFcontainer
           img.TFimage(src='@/assets/curso/temas/t1_13.jpg', alt='principales aspectos')
-          .TFoverlay--02.p-3
-            h5.mt-2.mb-3 Características cuantitativa
+          .TFoverlay--02.px-5.py-3
+            h4.mt-2.mb-3.text-center Características cuantitativa
             p.mb-0 Se identifican las características que pueden ser cuantificables, como edad, ingresos mensuales o anuales, activos, pasivos y patrimonio, las inversiones que realiza, entre otras, recordando que estas características deben ser medibles.
       
-      .col-md-10.col-lg-6.mb-4.mb-lg-0
+      .col-md-10.col-lg-5.mb-4.mb-lg-0(data-aos="flip-right")
         .TFcontainer
           img.TFimage(src='@/assets/curso/temas/t1_14.jpg', alt='principales aspectos')
-          .TFoverlay--02.p-3
-            h5.mt-2.mb-3 Características cuantitativa
+          .TFoverlay--02.px-5.py-3
+            h4.mt-2.mb-3.text-center Características cuantitativa
             p.mb-0 Son aquellas que no pueden ser medibles, son más subjetivas, son características o cualidades que permiten identificar la orientación del cliente, hacen que el cliente tenga preferencias a la hora de decidir adquirir un producto o servicio.
     
-    p.mb-4 En el proceso, se debe identificar el perfil del consumidor, esto permitirá construir y dirigir las estrategias de venta de una forma adecuada que permita tener acceso al cliente y lograr el fin último, que es crear fidelidad hacia la entidad, la organización o la marca; el conocimiento del perfil del consumidor se ha estudiado por la psicología y más propiamente por el neuromarketing.
+    p.mb-4(data-aos="fade") En el proceso, se debe identificar el perfil del consumidor, esto permitirá construir y dirigir las estrategias de venta de una forma adecuada que permita tener acceso al cliente y lograr el fin último, que es crear fidelidad hacia la entidad, la organización o la marca; el conocimiento del perfil del consumidor se ha estudiado por la psicología y más propiamente por el neuromarketing.
 
     p.mb-4 Los consumidores poseen unos carácteres definidos, que los impulsan a adquirir un producto o servicio, es posible clasificarlos en un amplio grupo de once (11) consumidores:
 
-    ImagenInfografica.color-acento-botones.mb-5
+    ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-up")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/t1_15.svg', alt='Texto que describa la imagen')
@@ -210,11 +210,11 @@
       .tarjeta.tarjeta--verde.p-3(x="87%" y="94.4%" numero="+")
         p.mb-0 #[strong Consumidor interno:] Las personas que están dentro de la organización y tienen la necesidad de adquirir productos o servicios.
     
-    p.mb-4 En cuanto al consumidor bancario, investigadores del Colegio de Estudios Superiores de Administración (CESA), junto con investigadores de la Universidad Javeriana y Universidad del Valle, identificaron cuatro (4) perfiles.
+    p.mb-4(data-aos="fade") En cuanto al consumidor bancario, investigadores del Colegio de Estudios Superiores de Administración (CESA), junto con investigadores de la Universidad Javeriana y Universidad del Valle, identificaron cuatro (4) perfiles.
 
     p.mb-4 Los cuatro perfiles de clientes bancarios que dan valor a las marcas son los co-creadores de marca, los no co-creadores, los escépticos y los neutrales. ¿Qué los caracteriza?
    
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade")
       .col-lg-5
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img

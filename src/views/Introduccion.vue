@@ -3,20 +3,20 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-4 Para dar inicio al componente formativo que corresponde al complementario de Asesoría y servicio al cliente en el mercado financiero, escuche y observe el siguiente video.
+    p.mb-4(data-aos="fade") Para dar inicio al componente formativo que corresponde al complementario de Asesoría y servicio al cliente en el mercado financiero, escuche y observe el siguiente video.
 
-    .video.mb-4
+    .video.mb-4(data-aos="fade-down")
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-4 Para abordar las temáticas en este componente formativo, se hace necesario reconocer algunos elementos que son claves en su desarrollo; de esta manera, observe:
 
-    .bg01.p-4
+    .bg01.p-4(data-aos="fade")
       SlyderA(tipo="b")
         .row.justify-content-between.p-4
           .col-lg-4.mb-4.mb-lg-0
