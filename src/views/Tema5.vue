@@ -12,7 +12,7 @@
         p Los productos financieros están creados como instrumentos que permiten a las personas naturales o jurídicas realizar diferentes operaciones, como ahorrar e invertir; estos productos son intangibles y se encuentran respaldados por un contrato.
 
         .cajon.color-acento-contenido.p-4
-          p.mb-0 En cuanto a la recopilación de información, se debe estar atento a lo que requiere el cliente, cuál es su necesidad a satisfacer, como también las dudas e inquietudes que pueda presentar en el momento de la comunicación, por lo cual, la escucha activa es fundamental en todo el proceso, pues también permitirá dar solución al conflicto (necesidad) o a las quejas o reclamos que el mismo pueda tener, y de esta forma, poder dar una finalización en la que la demanda del cliente es satisfecha.
+          p.mb-0 La #[strong Ley 1328 de 2009, Título I, Capítulo I], define productos y servicios como las operaciones legalmente autorizadas que se instrumentan en un contrato celebrado con el cliente o que tienen origen en la ley. Se entiende por servicios aquellas actividades conexas al desarrollo de las correspondientes operaciones y que se suministran a los consumidores financieros; y por consumidor financiero, todo cliente, usuario o cliente potencial de las entidades vigiladas.
       .col-lg-5(data-aos="flip-right")
         figure
           img(src='@/assets/curso/temas/t5_01.jpg', alt='Recopilación de información')

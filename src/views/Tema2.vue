@@ -29,7 +29,7 @@
                 | #[strong La asesoría]
                 br
                 br
-                | Se entiende como la labor de un profesional o una empresa destinada a la realización de distintas funciones de asesoramien, control y supervisión de la actividad económica de una persona física o jurídica que contrata sus servicios en el ámbito económico y jurídico.
+                | Se entiende como la labor de un profesional o una empresa destinada a la realización de distintas funciones de asesoramiento, control y supervisión de la actividad económica de una persona física o jurídica que contrata sus servicios en el ámbito económico y jurídico.
 
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
@@ -72,7 +72,7 @@
     Separador
 
     #t2_1.titulo-segundo.color-acento-contenido(data-aos="fade-up")
-      h2 2.1. Proceso de atención y servicio al cliente
+      h2 2.1 Proceso de atención y servicio al cliente
 
     .row.align-items-center.mb-5(data-aos="flip-down")
       .col-lg-7.mb-4.mb-lg-0
@@ -87,7 +87,7 @@
           img.br01(src='@/assets/curso/temas/t2_04.png', alt='Proceso de atención y servicio al cliente')
       
     .video.mb-5(data-aos="fade")
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/MjYTz9vzCFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-5.mb-4.mb-lg-0(data-aos="flip-left")
@@ -136,15 +136,17 @@
         p Dentro del proceso de servicio al cliente, se tiene acceso a la información del cliente, por lo cual, de acuerdo con la ISO 9001:2015, la organización debe cuidar la propiedad perteneciente a los clientes o a proveedores externos mientras esté bajo el control de la organización o esté siendo utilizada por la misma; esto como un proceso de operación.
         .BG20.p-3.mb-4(data-aos="fade")
           p.mb-0 En cuanto a la evaluación de desempeño, se debe propender, como objetivo, a la satisfacción del cliente, por lo cual se debe realizar el correcto seguimiento de la percepción de los clientes, en el cual se evidencia el cumplimiento de sus necesidades y expectativas.
-        .row.align-items-center.justify-content-center.mb-5(data-aos="fade-up")
+        .row.align-items-center.justify-content-center.mb-0(data-aos="fade-up")
           .col-4.col-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
             figure
               img.br01(src='@/assets/curso/temas/t2_07.png', alt='Monedas')
           .col-lg-10
-            p Como norma internacional y siguiendo los lineamientos del sistema de gestión de calidad, se debe concebir este proceso como la línea base para todas las organizaciones en cuanto a su proceso de servicio al cliente, sin embargo, las características de cada una pueden demandar unos procesos ajustados de  acuerdo con las necesidades, sin olvidar que el fin último es la satisfacción y exclusividad del cliente.
+            p.mb-0 Como norma internacional y siguiendo los lineamientos del sistema de gestión de calidad, se debe concebir este proceso como la línea base para todas las organizaciones en cuanto a su proceso de servicio al cliente, sin embargo, las características de cada una pueden demandar unos procesos ajustados de  acuerdo con las necesidades, sin olvidar que el fin último es la satisfacción y exclusividad del cliente.
       .col-lg-5(data-aos="flip-left")
         figure
           img.br01(src='@/assets/curso/temas/t2_06.jpg', alt='cuidar la propiedad perteneciente a los clientes')
+    
+    p.mb-5 Ajustando los procesos de servicio al cliente, se puede implementar el siguiente modelo: 
 
     .titulo-sexto.color-acento-contenido(data-aos="flip-down")
       h5 Figura 3.
@@ -209,12 +211,12 @@
     Separador
 
     #t2_2.titulo-segundo.color-acento-contenido(data-aos="fade-up")
-      h2 2.2. Alternativas de productos y servicios
+      h2 2.2 Alternativas de productos y servicios
 
     p(data-aos="fade-down") La alternativa de productos y servicios depende de la necesidad y la expectativa que el cliente desee satisfacer; cada portafolio de servicios se debe adaptar al cliente; estas necesidades a satisfacer se identifican dentro del proceso de servicio al cliente y de acuerdo con los protocolos establecidos por cada organización. Observe cómo se sugiere realizar la caracterización.
 
     .video.mb-5(data-aos="fade")
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/-wPhW5kLZhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.align-items-center.mb-4
       .col-lg-7.mb-4.mb-lg-0
@@ -232,12 +234,12 @@
     Separador
 
     #t2_3.titulo-segundo.color-acento-contenido(data-aos="fade-up")
-      h2 2.3. Alternativas de productos y servicios
+      h2 2.3 Técnicas de comunicación
 
     .row.align-items-center(data-aos="fade-up")
       .col-lg-5.mb-4.mb-lg-0(data-aos="flip-right")
         figure
-          img.br01(src='@/assets/curso/temas/t2_13.jpg', alt='Alternativas de productos y servicios')
+          img.br01(src='@/assets/curso/temas/t2_13.jpg', alt='Técnicas de comunicación')
       .col-lg-7
         p La interacción con el cliente es de gran importancia dentro de cada organización, sea con sus clientes externos o con los internos; saber expresar, comunicar y ser receptivos con lo que el cliente comunica debe ser concebido como uno de los atributos más relevantes dentro del proceso de servicio al cliente.
 
@@ -273,13 +275,13 @@
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta BGwhite")
           .row.justify-content-center(titulo="Para reflexionar")
             .col-lg-11
-              p piense cuando realiza la consulta en un buscador sobre un producto que desea adquirir; de forma inmediata, las plataformas digitales le ofrecen todos los portafolios de productos y servicios donde lo puede adquirir, marcas, precios, canales de distribución. El cliente comunicó mediante un mensaje lo que quería y el receptor recibe la información y le ofrece lo que quiere para satisfacer su necesidad.
+              p Piense cuando realiza la consulta en un buscador sobre un producto que desea adquirir; de forma inmediata, las plataformas digitales le ofrecen todos los portafolios de productos y servicios donde lo puede adquirir, marcas, precios, canales de distribución. El cliente comunicó mediante un mensaje lo que quería y el receptor recibe la información y le ofrece lo que quiere para satisfacer su necesidad.
 
               p.mb-0 Es muy importante abordar el canal de comunicación por medio del cual interactúa con el cliente; las estrategias son distintas para cada canal, y más hablando de la era digital actual.
           
           .row.justify-content-center(titulo="Al interactuar")
             .col-lg-11
-              p con el cliente, debe tener en cuenta la comunicación verbal y la comunicación no verbal. En cuanto a la comunicación verbal, debe ser claro, usar un lenguaje adecuado, una tonalidad de voz apropiada, con una buena técnica de vocalización, que logre ser entendido; también es muy recomendable usar técnicas que le permitan abordar el miedo a expresarse, que le permitan controlar los nervios.
+              p Con el cliente, debe tener en cuenta la comunicación verbal y la comunicación no verbal. En cuanto a la comunicación verbal, debe ser claro, usar un lenguaje adecuado, una tonalidad de voz apropiada, con una buena técnica de vocalización, que logre ser entendido; también es muy recomendable usar técnicas que le permitan abordar el miedo a expresarse, que le permitan controlar los nervios.
 
               p.mb-0 La comunicación no verbal es muy importante dentro del proceso de comunicación, por lo cual, debe tener una correcta postura de su cuerpo, un rostro amable, amigable con el cliente y que genere seguridad, debe mirar siempre a la persona con la cual interactúa, esto transmite seguridad, se debe tener cuidado con la posición de las manos, se debe tener una distancia adecuada; por último y no menos importante, se debe llevar un vestuario adecuado.
 

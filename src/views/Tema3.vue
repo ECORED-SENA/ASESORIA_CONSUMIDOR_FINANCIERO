@@ -21,7 +21,7 @@
     Separador
 
     #t3_1.titulo-segundo.color-acento-contenido(data-aos="fade-up")
-      h2 3.1. Recolección de información
+      h2 3.1 Recolección de información
 
     .row.align-items-center.mb-4(data-aos="fade")
       .col-lg-5.mb-4.mb-lg-0
@@ -118,7 +118,7 @@
     Separador
 
     #t3_2.titulo-segundo.color-acento-contenido(data-aos="fade-up")
-      h2 3.2. Técnica de ventas
+      h2 3.2 Técnica de ventas
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-up")
       h5 Figura 4.

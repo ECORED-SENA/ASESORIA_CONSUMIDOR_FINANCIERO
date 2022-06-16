@@ -12,7 +12,7 @@
     p.mb-4(data-aos="fade") Para dar inicio al componente formativo que corresponde al complementario de Asesoría y servicio al cliente en el mercado financiero, escuche y observe el siguiente video.
 
     .video.mb-4(data-aos="fade-down")
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/kuwMBM6jON8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-4 Para abordar las temáticas en este componente formativo, se hace necesario reconocer algunos elementos que son claves en su desarrollo; de esta manera, observe:
 

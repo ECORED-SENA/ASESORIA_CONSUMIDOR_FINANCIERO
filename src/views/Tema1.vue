@@ -138,7 +138,7 @@
     Separador
     
     #t1_2.titulo-segundo.color-acento-contenido(data-aos="fade-up")
-      h2 1.2. Características del consumidor financiero
+      h2 1.2 Características del consumidor financiero
     
     .row.my-6(data-aos="fade")
       .col-lg-5.Bf01
@@ -158,19 +158,19 @@
         .TFcontainer
           img.TFimage(src='@/assets/curso/temas/t1_13.jpg', alt='principales aspectos')
           .TFoverlay--02.px-5.py-3
-            h4.mt-2.mb-3.text-center Características cuantitativa
+            h4.mt-2.mb-3.text-center Características cuantitativas
             p.mb-0 Se identifican las características que pueden ser cuantificables, como edad, ingresos mensuales o anuales, activos, pasivos y patrimonio, las inversiones que realiza, entre otras, recordando que estas características deben ser medibles.
       
       .col-md-10.col-lg-5.mb-4.mb-lg-0(data-aos="flip-right")
         .TFcontainer
           img.TFimage(src='@/assets/curso/temas/t1_14.jpg', alt='principales aspectos')
           .TFoverlay--02.px-5.py-3
-            h4.mt-2.mb-3.text-center Características cuantitativa
+            h4.mt-2.mb-3.text-center Características cualitativas
             p.mb-0 Son aquellas que no pueden ser medibles, son más subjetivas, son características o cualidades que permiten identificar la orientación del cliente, hacen que el cliente tenga preferencias a la hora de decidir adquirir un producto o servicio.
     
-    p.mb-4(data-aos="fade") En el proceso, se debe identificar el perfil del consumidor, esto permitirá construir y dirigir las estrategias de venta de una forma adecuada que permita tener acceso al cliente y lograr el fin último, que es crear fidelidad hacia la entidad, la organización o la marca; el conocimiento del perfil del consumidor se ha estudiado por la psicología y más propiamente por el neuromarketing.
+    p.mb-4(data-aos="fade") En el proceso, se debe identificar el perfil del consumidor, esto permitirá construir y dirigir las estrategias de venta de una forma adecuada que permita tener acceso al cliente y lograr el fin último, que es crear fidelidad hacia la entidad, la organización o la marca; el conocimiento del perfil del consumidor se ha estudiado por la psicología y más propiamente por el #[i neuromarketing].
 
-    p.mb-4 Los consumidores poseen unos carácteres definidos, que los impulsan a adquirir un producto o servicio, es posible clasificarlos en un amplio grupo de once (11) consumidores:
+    p.mb-4 Los consumidores poseen unos caracteres definidos, que los impulsan a adquirir un producto o servicio, es posible clasificarlos en un amplio grupo de once (11) consumidores:
 
     ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-up")
       template(v-slot:imagen)
@@ -178,7 +178,7 @@
           img(src='@/assets/curso/temas/t1_15.svg', alt='Texto que describa la imagen')
 
       .tarjeta.tarjeta--verde.p-3(x="3%" y="2.4%" numero="+")
-        p.mb-0 #[strong Consumidor conservador:] es el consumidor fiel a una empresa, organización o marca, es difícil influir en el.
+        p.mb-0 #[strong Consumidor conservador:] es el consumidor fiel a una empresa, organización o marca, es difícil influir en él.
 
       .tarjeta.tarjeta--verde.p-3(x="21%" y="2.4%" numero="+")
         p.mb-0 #[strong Consumidor emocional:] los productos o servicios que adquiere le deben generar un sentimiento de felicidad, los adquiere en razón de ese sentimiento.
@@ -202,7 +202,7 @@
         p.mb-0 #[strong Consumidor de experiencia:] el producto o servicio le debe ofrecer una experiencia, algo nuevo e innovador, entre más detalles, mejor para este consumidor.
       
       .tarjeta.tarjeta--verde.p-3(x="53.5%" y="94.4%" numero="+")
-        p.mb-0 #[strong Consumidor e-commerce:] prefiere adquirir productos o servicios a través del e-commerce, por facilidad y comodidad.
+        p.mb-0 #[strong Consumidor #[i e-commerce]:] prefiere adquirir productos o servicios a través del #[i e-commerce], por facilidad y comodidad.
 
       .tarjeta.tarjeta--verde.p-3(x="69.5%" y="94.4%" numero="+")
         p.mb-0 #[strong Consumidor organizacional:] organizaciones públicas o privadas con necesidad de adquirir productos o servicios para su funcionamiento, consumo o proyectos.
@@ -240,7 +240,7 @@
           .tarjeta.BG10
             .p-4
               h3 Los neutrales
-              p Manejan muy poca información sobre la entidad bancaria y escasamente confían en la capacidad de esta para desempeñar su trabajo.
+              p Están a mitad de camino: si tienen un alto conocimiento sobre la entidad que les brinda los servicios que esperan, pero necesitan una mayor y más gratificante experiencia para co-crear valor de marca.
       
       .col-lg-5
         .tarjeta-avatar-b.mb-5
