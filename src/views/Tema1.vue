@@ -115,7 +115,7 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 
-              | A parte de su procedencia jurídica, el consumidor financiero se clasifica en dos (2) categorías, el consumidor actual, quien en la actualidad consume los productos y servicios en el sector financiero, y el consumidor potencial, como su nombre lo indica, es un cliente potencial, puede ser un posible comprador de productos y servicios financieros.
+              | Aparte de su procedencia jurídica, el consumidor financiero se clasifica en dos (2) categorías, el consumidor actual, quien en la actualidad consume los productos y servicios en el sector financiero, y el consumidor potencial, como su nombre lo indica, es un cliente potencial, puede ser un posible comprador de productos y servicios financieros.
               br
               br
               | Las organizaciones deben propender a satisfacer las necesidades de estos consumidores, por lo cual deben establecer canales de comunicación y técnicas de ventas eficientes y eficaces, lo que permitirá la fidelidad de los consumidores actuales y atraer los consumidores potenciales.
@@ -196,7 +196,7 @@
         p.mb-0 #[strong Consumidor optimista:] el adquirir un producto o servicio se basa en la calidad y lo que le aporta a su bienestar, sin importar el precio.
 
       .tarjeta.tarjeta--verde.p-3(x="19%" y="94.4%" numero="+")
-        p.mb-0 #[strong Consumidor de descuentos:] Los descuentos son lo que lo motivan a adquirir los productos o servicios, son amantes de la oferta o lo gratis.
+        p.mb-0 #[strong Consumidor de descuentos:] los descuentos son lo que lo motivan a adquirir los productos o servicios, son amantes de la oferta o lo gratis.
 
       .tarjeta.tarjeta--verde.p-3(x="37.5%" y="94.4%" numero="+")
         p.mb-0 #[strong Consumidor de experiencia:] el producto o servicio le debe ofrecer una experiencia, algo nuevo e innovador, entre más detalles, mejor para este consumidor.
@@ -208,7 +208,7 @@
         p.mb-0 #[strong Consumidor organizacional:] organizaciones públicas o privadas con necesidad de adquirir productos o servicios para su funcionamiento, consumo o proyectos.
 
       .tarjeta.tarjeta--verde.p-3(x="87%" y="94.4%" numero="+")
-        p.mb-0 #[strong Consumidor interno:] Las personas que están dentro de la organización y tienen la necesidad de adquirir productos o servicios.
+        p.mb-0 #[strong Consumidor interno:] las personas que están dentro de la organización y tienen la necesidad de adquirir productos o servicios.
     
     p.mb-4(data-aos="fade") En cuanto al consumidor bancario, investigadores del Colegio de Estudios Superiores de Administración (CESA), junto con investigadores de la Universidad Javeriana y Universidad del Valle, identificaron cuatro (4) perfiles.
 
@@ -240,7 +240,7 @@
           .tarjeta.BG10
             .p-4
               h3 Los neutrales
-              p Están a mitad de camino: si tienen un alto conocimiento sobre la entidad que les brinda los servicios que esperan, pero necesitan una mayor y más gratificante experiencia para co-crear valor de marca.
+              p Están a mitad de camino: sí tienen un alto conocimiento sobre la entidad que les brinda los servicios que esperan, pero necesitan una mayor y más gratificante experiencia para co-crear valor de marca.
       
       .col-lg-5
         .tarjeta-avatar-b.mb-5

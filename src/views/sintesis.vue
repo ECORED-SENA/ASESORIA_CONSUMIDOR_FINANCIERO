@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.BRtop.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5
 
-    p.mb-4 Síntesis del componente formativo Asesoría al consumidor financiero.
+    p.mb-4 Síntesis del componente formativo "Asesoría y servicio al cliente en el mercado financiero".
 
   .container.bg03.tarjeta--blanca.px-4.pt-5.px-md-5.BRbtn
 

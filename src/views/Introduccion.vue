@@ -48,7 +48,7 @@
         
         .row.justify-content-between.p-4
           .col-lg-4.mb-4.mb-lg-0
-            p Un adecuado conocimiento e implementación de las técnicas y procesos abordados durante la formación le permitirán adquirir habilidades de comunicación, venta de productos financieros y estructuración de productos financieros, por lo cual se debe abordar el componente formativo desde la óptica del auto aprendizaje.
+            p Un adecuado conocimiento e implementación de las técnicas y procesos abordados durante la formación le permitirán adquirir habilidades de comunicación, venta de productos financieros y estructuración de productos financieros, por lo cual se debe abordar el componente formativo desde la óptica del autoaprendizaje.
           .col-lg-7
             figure
               img.br01(src='@/assets/curso/temas/t0_06.jpg', alt='Texto que describa la imagen')

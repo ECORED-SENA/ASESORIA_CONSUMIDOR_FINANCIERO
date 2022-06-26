@@ -216,7 +216,7 @@
     p(data-aos="fade-down") La alternativa de productos y servicios depende de la necesidad y la expectativa que el cliente desee satisfacer; cada portafolio de servicios se debe adaptar al cliente; estas necesidades a satisfacer se identifican dentro del proceso de servicio al cliente y de acuerdo con los protocolos establecidos por cada organización. Observe cómo se sugiere realizar la caracterización.
 
     .video.mb-5(data-aos="fade")
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/-wPhW5kLZhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/S1KYDkMz8Gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.align-items-center.mb-4
       .col-lg-7.mb-4.mb-lg-0
